@@ -57,7 +57,7 @@ const data = [
     },
     {
         name: `Prithvik Hareesh`,
-        img: `/students/Mia_Williams.jpg`,
+        img: `src/students/Prithvik.png`,
         review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     
