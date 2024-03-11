@@ -66,7 +66,7 @@ function Demo() {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen bg-base-100">
+        <div className="hero min-h-screen bg-base-100">
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Demo</h1>
