@@ -10,11 +10,11 @@ function Navbar() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/demo">Demo</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/references">References</Link></li>
-                    <li><Link to="/team">Team</Link></li>
+                    <li><Link to="#home">Home</Link></li>
+                    <li><Link to="#demo">Demo</Link></li>
+                    <li><Link to="#about">About</Link></li>
+                    <li><Link to="#references">References</Link></li>
+                    <li><Link to="#team">Team</Link></li>
                 </ul>
             </div>
         </div>
