@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="footer items-center p-4 bg-neutral text-neutral-content fixed bottom-0">
+        <footer className="footer items-center p-4 text-neutral-content fixed bottom-0 z-50">
             <aside className="items-center grid-flow-col gap-3">
-                <svg width="36" height="36" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipule="evenodd" className="fill-current" transform="scale(1.5) rotate(-35 0 0)" viewBox="-5 -5 36 36"><path d="M24 21h-3l1-3h1l1 3zm-12.976-4.543l8.976-4.575v6.118c-1.007 2.041-5.607 3-8.5 3-3.175 0-7.389-.994-8.5-3v-6.614l8.024 5.071zm11.976.543h-1v-7.26l-10.923 5.568-11.077-7 12-5.308 11 6.231v7.769z" /></svg>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipule="evenodd" className="fill-current" transform="scale(1.5) rotate(-35 0 0)" viewBox="0 0 26 26"><path d="M24 21h-3l1-3h1l1 3zm-12.976-4.543l8.976-4.575v6.118c-1.007 2.041-5.607 3-8.5 3-3.175 0-7.389-.994-8.5-3v-6.614l8.024 5.071zm11.976.543h-1v-7.26l-10.923 5.568-11.077-7 12-5.308 11 6.231v7.769z" /></svg>
                 <p>Crafted by Team 174 - VITB '24 Capstone Project</p>
             </aside>
             <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

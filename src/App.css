@@ -10,3 +10,22 @@
   width: 100vw;
   height: 100vh;
 }
+
+Footer {
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 1px, oklch(var(--b1)) 1px);
+  background-size: 4px 4px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  -moz-backdrop-filter: blur(3px);
+}
+
+Footer::before {
+  display: block;
+  position: absolute;
+  opacity: 0.2;
+  top: -1px;
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  background: var(--my-gray);
+}

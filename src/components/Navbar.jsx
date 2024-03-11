@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="navbar bg-base-100 fixed top-0">
+        <div className="navbar bg-base-100 fixed top-0 z-50">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">GreenSeg</a>
             </div>
