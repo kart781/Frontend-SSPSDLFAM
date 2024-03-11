@@ -15,17 +15,17 @@ function Team() {
     {
       name: `Mukund Kumar Surehli`,
       img: `/students/Mukund.jpg`,
-      review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+      review: `Did Everything`
     },
     {
       name: `Karthik Bhusarapu`,
       img: `/students/Karthik.jpeg`,
-      review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+      review: `In Between`
     },
     {
       name: `Christopher Sojan`,
-      img: `/students/Christopher.jpg`,
-      review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+      img: `/students/chris.jpg`,
+      review: `Did Nothing`
     },
     {
       name: `Kushagr Jain`,
@@ -41,7 +41,7 @@ function Team() {
   ];
 
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex bg-base-100">
       <div className='w-3/4 m-auto'>
         <div className="mt-20">
           <Slider {...settings}>
