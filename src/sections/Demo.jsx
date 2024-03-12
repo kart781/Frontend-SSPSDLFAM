@@ -47,7 +47,7 @@ function Demo() {
     };
 
     return (
-        <div className="hero min-h-screen bg-base-100">
+        <section id="demo" className="hero min-h-screen bg-base-100 snap-center">
             <div className="hero-content text-neutral-content w-full h-full">
                 <motion.div className="flex flex-col text-center justify-center items-center gap-y-6" layout={true}>
                     <motion.h1
@@ -128,7 +128,7 @@ function Demo() {
                     </div>
                 </motion.div>
             </div>
-        </div>
+        </section>
     );
 }
 

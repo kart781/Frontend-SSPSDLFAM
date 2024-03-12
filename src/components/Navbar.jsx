@@ -9,12 +9,12 @@ function Navbar() {
                 <a className="btn btn-ghost text-xl">GreenSeg</a>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
-                    <li><Link to="#home">Home</Link></li>
-                    <li><Link to="#demo">Demo</Link></li>
-                    <li><Link to="#about">About</Link></li>
-                    <li><Link to="#references">References</Link></li>
-                    <li><Link to="#team">Team</Link></li>
+                <ul className="menu menu-horizontal gap-1">
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#home">Home</Link></li>
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#demo">Demo</Link></li>
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#about">About</Link></li>
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#references">References</Link></li>
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#team">Team</Link></li>
                 </ul>
             </div>
         </div>

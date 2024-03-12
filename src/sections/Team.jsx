@@ -41,7 +41,7 @@ function Team() {
   ];
 
   return (
-    <div className="min-h-screen flex bg-base-100">
+    <section id="team" className="min-h-screen flex bg-base-100 snap-center">
       <div className='w-3/4 m-auto'>
         <div className="mt-20">
           <Slider {...settings}>
@@ -62,7 +62,7 @@ function Team() {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }
 
