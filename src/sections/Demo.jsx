@@ -64,7 +64,7 @@ function Demo() {
                         whileInView={{ opacity: 1 }}
                         transition={{ ease: easeInOut, duration: 0.4 }}
                     >
-                        <p className="prose leading-normal tracking-wide">Visualize Segmentation Results</p>
+                        <p className="prose leading-normal tracking-wide font-medium">Visualize Segmentation Results</p>
                     </motion.div>
                     <motion.div
                         className="flex w-full gap-x-6 justify-center"
@@ -81,7 +81,7 @@ function Demo() {
                             transition={{ ease: easeInOut, duration: 0.8 }}
                         />
                         <motion.button
-                            className="btn btn-primary leading-normal tracking-wide"
+                            className="btn btn-primary leading-normal tracking-wide text-base"
                             onClick={handleUpload}
                             initial={{ opacity: 0, x: "10px" }}
                             whileInView={{ opacity: 1, x: "0px" }}
