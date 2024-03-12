@@ -49,32 +49,39 @@ function Demo() {
     return (
         <div className="hero min-h-screen bg-base-100">
             <div className="hero-content text-neutral-content w-full h-full">
-                <div className="flex flex-col text-center justify-center items-center gap-y-6">
+                <motion.div className="flex flex-col text-center justify-center items-center gap-y-6" layout={true}>
                     <motion.h1
-                        className="mb-5 text-5xl font-bold"
+                        className="text-5xl font-bold prose leading-normal tracking-wide"
                         initial={{ opacity: 0, y: "10px" }}
                         whileInView={{ opacity: 1, y: "0px" }}
                         transition={{ ease: easeInOut, duration: 0.5 }}
                     >
-                        Explore the Model
+                        Model Showcase: Plant Segmentation
                     </motion.h1>
+                    <motion.div
+                        className="divider"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ ease: easeInOut, duration: 0.4 }}
+                    >
+                        <p className="prose leading-normal tracking-wide">Visualize Segmentation Results</p>
+                    </motion.div>
                     <motion.div
                         className="flex w-full gap-x-6 justify-center"
                         initial={{ opacity: 0, y: "10px" }}
                         whileInView={{ opacity: 1, y: "0px" }}
                         transition={{ ease: easeInOut, duration: 0.5 }}
-                        layout
                     >
                         <motion.input
                             type="file"
                             onChange={handleFileChange}
-                            className="file-input file-input-bordered file-input-primary w-full max-w-xs"
+                            className="file-input file-input-bordered file-input-primary w-full max-w-xs leading-normal tracking-wide"
                             initial={{ opacity: 0, x: "-10px" }}
                             whileInView={{ opacity: 1, x: "0px" }}
                             transition={{ ease: easeInOut, duration: 0.8 }}
                         />
                         <motion.button
-                            className="btn btn-primary"
+                            className="btn btn-primary leading-normal tracking-wide"
                             onClick={handleUpload}
                             initial={{ opacity: 0, x: "10px" }}
                             whileInView={{ opacity: 1, x: "0px" }}
@@ -83,7 +90,7 @@ function Demo() {
                             Run Model
                         </motion.button>
                     </motion.div>
-                    <motion.div className="flex w-full gap-x-2" layout>
+                    <div className="flex w-full gap-x-2">
                         <div className="grid h-auto flex-grow card bg-base-100 rounded-box place-items-center">
                             {imgUrl && (
                                 <motion.div
@@ -92,7 +99,7 @@ function Demo() {
                                     whileInView={{ opacity: 1, x: "0px" }}
                                     transition={{ ease: easeInOut, duration: 0.5 }}
                                 >
-                                    <span className="indicator-item indicator-bottom indicator-center badge badge-primary">Input Image</span>
+                                    <span className="indicator-item indicator-bottom indicator-center badge badge-primary leading-normal tracking-wide">Input Image</span>
                                     <img className="rounded-lg" src={imgUrl} alt="Input Image" />
                                 </motion.div>
                             )}
@@ -100,7 +107,7 @@ function Demo() {
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ ease: easeInOut, duration: 0.9 }}
+                            transition={{ ease: easeInOut, duration: 0.4 }}
                             className="divider divider-horizontal"
                         />
                         <div className="grid h-auto flex-grow card bg-base-100 rounded-box place-items-center">
@@ -113,13 +120,13 @@ function Demo() {
                                     whileInView={{ opacity: 1, x: "0px" }}
                                     transition={{ ease: easeInOut, duration: 0.5 }}
                                 >
-                                    <span className="indicator-item indicator-bottom indicator-center badge badge-primary">Segmenation Mask</span>
+                                    <span className="indicator-item indicator-bottom indicator-center badge badge-primary leading-normal tracking-wide">Segmenation Mask</span>
                                     <img className="rounded-lg" src={maskUrl} alt="Segmentation Mask" />
                                 </motion.div>
                             ))}
                         </div>
-                    </motion.div>
-                </div>
+                    </div>
+                </motion.div>
             </div>
         </div>
     );
