@@ -33,7 +33,7 @@ function Team() {
     {
       name: `Karthik Bhusarapu`,
       img: `/students/Karthik.png`,
-      review: `Lead Frontend Development and development of API, linking frontend and backend.`,
+      review: `Lead Frontend Development and linking frontend and backend using API.`,
       contact: linkedinLogo,
       contactLink: "https://www.linkedin.com/in/karthik-bhusarapu-2b5b221b0/"
     },
