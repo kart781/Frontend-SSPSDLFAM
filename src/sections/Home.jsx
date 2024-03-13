@@ -1,20 +1,8 @@
 import React from "react";
 import { easeInOut, motion } from "framer-motion";
+import { images } from "./constants";
 
 function Home() {
-    const images = [
-        "/plants/plant_img.png",
-        "/plants/plant_res.png",
-        "/plants/plant_img2.png",
-        "/plants/plant_res2.png",
-        "/plants/plant_img3.png",
-        "/plants/plant_res3.png",
-        "/plants/plant_img4.png",
-        "/plants/plant_res4.png",
-        "/plants/plant_img5.png",
-        "/plants/plant_res5.png",
-    ];
-
     const getRandomInt = (min, max) => {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
