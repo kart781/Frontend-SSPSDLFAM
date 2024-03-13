@@ -30,7 +30,7 @@ function Team() {
     },
     {
       name: `Kushagr Jain`,
-      img: `/students/Mukund.png`,
+      img: `/students/Kushagr.png`,
       review: `Worked on developing the model and with the website by dockerising and hosting it on GCP`
     },
     {
