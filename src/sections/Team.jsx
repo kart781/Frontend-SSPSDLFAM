@@ -46,7 +46,7 @@ function Team() {
     },
     {
       name: `Kushagr Jain`,
-      img: `/students/Mukund.png`,
+      img: `/students/Kushagr.png`,
       review: `Contributed to DL Model Development and Project Deployment.`,
       contact: linkedinLogo,
       contactLink: "https://www.linkedin.com/in/kushagr-jain-819207228/"
