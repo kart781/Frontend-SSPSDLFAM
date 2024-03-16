@@ -12,6 +12,7 @@ function Navbar() {
                 <ul className="menu menu-horizontal gap-1">
                     <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#demo">Demo</Link></li>
                     <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#about">About</Link></li>
+                    <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#timeline">Timeline</Link></li>
                     <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#references">References</Link></li>
                     <li className="leading-normal tracking-wide font-semibold text-base"><Link to="#team">Team</Link></li>
                 </ul>
