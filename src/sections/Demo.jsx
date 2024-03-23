@@ -26,7 +26,7 @@ function Demo() {
             const base64String = reader.result.split(',')[1];
             try {
                 const res = await axios.post(
-                    'http://localhost:8000/segment',
+                    `${import.meta.env.VITE_API_URL}/segment`,
                     {
                         img_base64: base64String,
                     },
