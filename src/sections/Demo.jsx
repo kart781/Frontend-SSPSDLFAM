@@ -34,7 +34,6 @@ function Demo() {
                         headers: { "Content-Type": "application/json" }
                     },
                 );
-                console.log(res.data.mask);
                 setMaskUrl(`data:image/png;base64,${res.data.mask}`);
                 setIsLoading(false);
             } catch (err) {
